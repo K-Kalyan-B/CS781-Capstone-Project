@@ -1,0 +1,17 @@
+# Python 3.10+; use a PyTorch wheel compatible with your CUDA runtime.
+# Kaggle supplies torch/CUDA and kaggle_secrets within its notebook image.
+torch>=2.2
+numpy>=1.24
+scikit-learn>=1.2
+tokenizers>=0.15
+huggingface-hub>=0.25
+tqdm>=4.65
+matplotlib>=3.7
+pandas>=2.0
+bert-score>=0.3.13
+rouge-score>=0.1.2
+
+# Notebook execution and HTTP dependencies
+jupyterlab>=4.0
+requests>=2.31
+# Optional for CUDA-enabled 4-bit QLoRA experiment: bitsandbytes
